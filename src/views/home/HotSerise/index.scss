@@ -1,0 +1,28 @@
+.HotSerise {
+  width: 1200px;
+  margin: 50px auto;
+  &_list {
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    .serise_box {
+      box-sizing: border-box;
+      cursor: pointer;
+      width: 16.66%;
+      background: #fff;
+      padding: 10px;
+      border: 1px solid #d8d8d8;
+      border-left-color: #fff;
+      transition: 0.2s;
+      will-change: transform background-image;
+    }
+    .serise_box:hover {
+      border-left-color: #d8d8d8;
+      transform: translateZ(0) scale(1.1);
+      box-shadow: 10px 10px 30px 0px rgba(65, 68, 82, 0.1);
+    }
+    .serise_box:first-child {
+      border-left: 1px solid #d8d8d8;
+    }
+  }
+}

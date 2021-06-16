@@ -1,0 +1,111 @@
+.BuykopBottom {
+  background: #162d75;
+  height: 197px;
+  z-index: 10;
+  position: -webkit-sticky;
+  position: sticky;
+  top: calc(100vh - 197px);
+  // 底部
+  .companyInfo {
+    box-sizing: border-box;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 197px;
+  }
+  &-bottom {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    // align-items: flex-start;
+    background: #162d75;
+    color: #fff;
+    &-img {
+      img {
+        cursor: pointer;
+        width: 149px;
+      }
+    }
+    &-law {
+      &-top {
+        height: 22px;
+        font-size: 16px;
+        font-weight: 500;
+        color: #ffffff;
+        line-height: 22px;
+      }
+      &-middle {
+        height: 28px;
+        font-size: 14px;
+        font-weight: 400;
+        color: #ffffff;
+        line-height: 28px;
+        cursor: pointer;
+      }
+    }
+    &-cop {
+      &-top {
+        height: 22px;
+        font-size: 16px;
+        font-weight: 500;
+        color: #ffffff;
+        line-height: 22px;
+      }
+      &-bottom {
+        // width: 122px;
+        height: 28px;
+        font-size: 14px;
+        font-weight: 400;
+        color: #ffffff;
+        line-height: 28px;
+        cursor: pointer;
+      }
+    }
+    &-contact {
+      &-top {
+        // width: 86px;
+        height: 22px;
+        font-size: 16px;
+        font-weight: 500;
+        color: #ffffff;
+        line-height: 22px;
+      }
+      &-middle {
+        // width: 304px;
+        height: 28px;
+        font-size: 14px;
+        font-weight: 400;
+        color: #ffffff;
+        line-height: 28px;
+      }
+    }
+    &-pay {
+      &-options {
+        // width: 262px;
+        height: 22px;
+        font-size: 16px;
+        font-weight: 500;
+        color: #ffffff;
+        line-height: 22px;
+      }
+      &-wrapper {
+        display: flex;
+        margin-top: 10px;
+        div {
+          img {
+            width: 42px;
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+  .BuykopBottom_down {
+    width: 100%;
+    overflow: hidden;
+    min-width: 1200px;
+    margin: 0 auto;
+  }
+}

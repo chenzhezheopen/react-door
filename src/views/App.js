@@ -1,7 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from '../logo.svg';
+import '../App.css';
+
+import { _home } from '../api/index.js'
+
+
 
 function App() {
+  _home.getData().then(res => {
+    console.log(res);
+  })
+
+
   return (
     <div className="App">
       <header className="App-header">
